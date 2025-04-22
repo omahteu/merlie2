@@ -1,0 +1,44 @@
+[
+    {
+        "despesa": "Aluguel"
+    },
+    {
+        "despesa": "Energia"
+    },
+    {
+        "despesa": "Água"
+    },
+    {
+        "despesa": "Internet"
+    },
+    {
+        "despesa": "Salários"
+    },
+    {
+        "despesa": "Impostos"
+    },
+    {
+        "despesa": "Frete"
+    },
+    {
+        "despesa": "Embalagens"
+    },
+    {
+        "despesa": "Mensalidades"
+    },
+    {
+        "despesa": "Máquinas de cartões"
+    },
+    {
+        "despesa": "Manutenção"
+    },
+    {
+        "despesa": "Telefonia móvel"
+    },
+    {
+        "despesa": "Seguros"
+    },
+    {
+        "despesa": "Segurança"
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "despesa": "Aluguel",
+        "id": "d_aluguel",
+        "name": "d_aluguel",
+        "help_text": "Somente números"
+    },
+    {
+        "despesa": "Energia",
+        "id": "d_energia",
+        "name": "d_energia",
+        "help_text": "Somente números"
+    },
+    {
+        "despesa": "Água",
+        "id": "d_agua",
+        "name": "d_agua",
+        "help_text": "Somente números"
+    },
+    {
+        "despesa": "Internet",
+        "id": "d_internet",
+        "name": "d_internet",
+        "help_text": "Somente números"
+    },
+    {
+        "despesa": "Salários",
+        "id": "d_salarios",
+        "name": "d_salarios",
+        "help_text": "Somente números"
+    },
+    {
+        "despesa": "Impostos",
+        "id": "d_impostos",
+        "name": "d_impostos",
+        "help_text": "Somente números"
+    },
+    {
+        "despesa": "Frete",
+        "id": "d_frete",
+        "name": "d_frete",
+        "help_text": "Somente números"
+    },
+    {
+        "despesa": "Embalagens",
+        "id": "d_embalagens",
+        "name": "d_embalagens",
+        "help_text": "Somente números"
+    },
+    {
+        "despesa": "Mensalidades",
+        "id": "d_mensalidades",
+        "name": "d_mensalidades",
+        "help_text": "Somente números"
+    },
+    {
+        "despesa": "Máquinas de cartões",
+        "id": "d_mcartao",
+        "name": "d_mcartao",
+        "help_text": "Somente números"
+    },
+    {
+        "despesa": "Manutenção",
+        "id": "d_manutencao",
+        "name": "d_manutencao",
+        "help_text": "Somente números"
+    },
+    {
+        "despesa": "Telefonia móvel",
+        "id": "d_telemovel",
+        "name": "d_telemovel",
+        "help_text": "Somente números"
+    },
+    {
+        "despesa": "Seguros",
+        "id": "d_seguros",
+        "name": "d_seguros",
+        "help_text": "Somente números"
+    },
+    {
+        "despesa": "Segurança",
+        "id": "d_seguranca",
+        "name": "d_seguranca",
+        "help_text": "Somente números"
+    }
+]

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Forms - Kaiadmin Bootstrap 5 Admin Dashboard</title>
+    <meta
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+      name="viewport"
+    />
+    <link
+      rel="icon"
+      href="../assets/img/kaiadmin/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <!-- Fonts and icons -->
+    <script src="../assets/js/plugin/webfont/webfont.min.js"></script>
+    <script>
+      WebFont.load({
+        google: { families: ["Public Sans:300,400,500,600,700"] },
+        custom: {
+          families: [
+            "Font Awesome 5 Solid",
+            "Font Awesome 5 Regular",
+            "Font Awesome 5 Brands",
+            "simple-line-icons",
+          ],
+          urls: ["../assets/css/fonts.min.css"],
+        },
+        active: function () {
+          sessionStorage.fonts = true;
+        },
+      });
+    </script>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/plugins.min.css" />
+    <link rel="stylesheet" href="../assets/css/kaiadmin.min.css" />
+
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link rel="stylesheet" href="../assets/css/demo.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Sidebar -->
+      <div class="sidebar" data-background-color="dark">
+        <div class="sidebar-logo">
+          <!-- Logo Header -->
+          <div class="logo-header" data-background-color="dark">
+            <a href="../index.html" class="logo">
+              <img
+                src="../assets/img/kaiadmin/logo_light.svg"
+                alt="navbar brand"
+                class="navbar-brand"
+                height="20"
+              />
+            </a>
+            <div class="nav-toggle">
+              <button class="btn btn-toggle toggle-sidebar">
+                <i class="gg-menu-right"></i>
+              </button>
+              <button class="btn btn-toggle sidenav-toggler">
+                <i class="gg-menu-left"></i>
+              </button>
+            </div>
+            <button class="topbar-toggler more">
+              <i class="gg-more-vertical-alt"></i>
+            </button>
+          </div>
+          <!-- End Logo Header -->
+        </div>
+        <div class="sidebar-wrapper scrollbar scrollbar-inner">
+          <div class="sidebar-content">
+            <ul class="nav nav-secondary">
+              <li class="nav-item">
+                <a
+                  data-bs-toggle="collapse"
+                  href="#dashboard"
+                  class="collapsed"
+                  aria-expanded="false"
+                >
+                  <i class="fas fa-home"></i>
+                  <p>Dashboard</p>
+                  <span class="caret"></span>
+                </a>
+                <div class="collapse" id="dashboard">
+                  <ul class="nav nav-collapse">
+                    <li>
+                      <a href="../../demo1/index.html">
+                        <span class="sub-item">Dashboard 1</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-section">
+                <span class="sidebar-mini-icon">
+                  <i class="fa fa-ellipsis-h"></i>
+                </span>
+                <h4 class="text-section">Components</h4>
+              </li>
+              <li class="nav-item">
+                <a data-bs-toggle="collapse" href="#base">
+                  <i class="fas fa-layer-group"></i>
+                  <p>Base</p>
+                  <span class="caret"></span>
+                </a>
+                <div class="collapse" id="base">
+                  <ul class="nav nav-collapse">
+                    <li>
+                      <a href="../components/avatars.html">
+                        <span class="sub-item">Avatars</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="../components/buttons.html">
+                        <span class="sub-item">Buttons</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="../components/gridsystem.html">
+                        <span class="sub-item">Grid System</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="../components/panels.html">
+                        <span class="sub-item">Panels</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="../components/notifications.html">
+                        <span class="sub-item">Notifications</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="../components/sweetalert.html">
+                        <span class="sub-item">Sweet Alert</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="../components/font-awesome-icons.html">
+                        <span class="sub-item">Font Awesome Icons</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="../components/simple-line-icons.html">
+                        <span class="sub-item">Simple Line Icons</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="../components/typography.html">
+                        <span class="sub-item">Typography</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- End Sidebar -->
+
+      <div class="main-panel">
+        <div class="main-header">
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Preço de Custo</th>
+                            <th>Preço de Custo com Margem</th>
+                            <th>Preço de Venda Ideal</th>
+                            <th>Lucro</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>R$ 23.56</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="page-inner">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card"></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <div class="card-title">Valores</div>
+                            </div>
+                            <div class="card-body">
+                                <div class="row" id="formu"></div>
+                            </div>
+                            <div class="card-header">
+                                <div class="card-title">Dados de Produção</div>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-2">
+                                        <div class="form-group">
+                                            <label for="${despesa.id}">Produção por dia</label>
+                                            <input type="text" class="form-control" id="${despesa.id}" name="${despesa.id}" placeholder="0"/>
+                                            <small class="form-text text-muted">Somente números</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-2">
+                                        <div class="form-group">
+                                            <label for="${despesa.id}">Tempo de produção</label>
+                                            <input type="text" class="form-control" id="${despesa.id}" name="${despesa.id}" placeholder="0"/>
+                                            <small class="form-text text-muted">Somente números</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-2">
+                                        <div class="form-group">
+                                            <label for="${despesa.id}">Tempo de produção</label>
+                                            <input type="text" class="form-control" id="${despesa.id}" name="${despesa.id}" placeholder="0"/>
+                                            <small class="form-text text-muted">Somente números</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-action">
+                                <button class="btn btn-success">Salvar</button>
+                                <button class="btn btn-danger">Limpar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+    </div>
+    <!--   Core JS Files   -->
+    <script src="../assets/js/core/jquery-3.7.1.min.js"></script>
+    <script src="../assets/js/core/popper.min.js"></script>
+    <script src="../assets/js/core/bootstrap.min.js"></script>
+
+    <!-- jQuery Scrollbar -->
+    <script src="../assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+
+    <!-- jQuery Sparkline -->
+    <script src="../assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
+
+    <!-- Datatables -->
+    <script src="../assets/js/plugin/datatables/datatables.min.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            // 1️⃣ Ler os dados de despesasSelecionadas do localStorage
+            let despesasSelecionadas = JSON.parse(localStorage.getItem("despesasSelecionadas")) || [];
+        
+            // Verifica se há despesas salvas
+            if (despesasSelecionadas.length === 0) {
+                console.warn("Nenhuma despesa selecionada no localStorage.");
+                return;
+            }
+        
+            // 2️⃣ Buscar os dados do arquivo despesas.json
+            $.getJSON("despesas.json", function (data) {
+                // 3️⃣ Filtrar os itens do JSON que correspondem às despesasSelecionadas
+                let despesasFiltradas = data.filter(item => 
+                    despesasSelecionadas.some(sel => sel.despesa === item.despesa)
+                );
+        
+                // 4️⃣ Para cada despesa encontrada, criar um campo no formulário
+                despesasFiltradas.forEach(despesa => {
+                    let formGroup = `
+                        <div class="col-md-6 col-lg-2">
+                            <div class="form-group">
+                                <label for="${despesa.id}">${despesa.name}</label>
+                                <input type="text" class="form-control" id="${despesa.id}" name="${despesa.id}" placeholder="0.00"/>
+                                <small class="form-text text-muted">${despesa.help_text}</small>
+                            </div>
+                        </div>
+                    `;
+                    $("#formu").append(formGroup); // Adiciona os campos ao formulário
+                });
+
+            }).fail(function () {
+                console.error("Erro ao carregar despesas.json");
+            });
+        });
+        
+    </script>
+  </body>
+</html>
